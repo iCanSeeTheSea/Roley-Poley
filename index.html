@@ -5,11 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Roley Poley</title>
 </head>
 
 <body>
-
+    <div class="nav-bar">
+        <a class="active" href="#abilityRoller">Ability Roller</a>
+    </div>
+    <div class="main">
+        <div class="dice-select">
+            <label class="container">3d6
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
+            
+            <label class="container">4d6 (drop lowest)
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            
+            <label class="container">d20
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+        </div>
+    </div>
 </body>
 
 <script src="script.js"></script>
